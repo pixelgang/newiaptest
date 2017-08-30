@@ -29,7 +29,7 @@
 	<plugin name="cordova-plugin-whitelist" source="npm" />
 	<access origin="*" />
 
-	<plugin name="cc.fovea.cordova.purchase" source="npm" />
+	<plugin name="cc.fovea.cordova.purchase" param="BILLING_KEY" source="npm" />
 	<plugin name="com.mcm.plugins.androidinappbilling" source="npm" />
 	<plugin name="https://github.com/cranberrygame/cordova-plugin-ad-admob" source="npm" />
 
