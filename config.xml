@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.pixelgang.iaptest" version="1.0">
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" xmlns:android = "http://schemas.android.com/apk/res/android" id="com.pixelgang.iaptest" version="1.4">
 
 	<name>PG IAP Test</name>
 	<description>A test of the inap purchase</description>
@@ -31,6 +31,7 @@
 
 	<plugin name="cc.fovea.cordova.purchase" source="npm" />
 	<plugin name="com.mcm.plugins.androidinappbilling" source="npm" />
+	<plugin name="https://github.com/cranberrygame/cordova-plugin-ad-admob" source="npm" />
 
 	<!-- Optional splash screen image, e.g.: -->
 	<!-- <gap:splash src="splash.png" width="1024" height="768" /> -->
